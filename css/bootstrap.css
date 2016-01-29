@@ -6045,7 +6045,8 @@ margin: 5px 0 0 211px;
 }
 
 
-#portfolio-items-wrap .portfolio-item {
+#portfolio-items-wrap .portfolio-item,
+#items-wrap .portfolio-item {
 width: 50% !important;
 }
 .da-thumbs li article a {

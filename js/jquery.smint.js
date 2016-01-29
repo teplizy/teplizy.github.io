@@ -1,7 +1,4 @@
-
-
-	(function(){
-
+(function(){
 
 	$.fn.smint = function( options ) {
 

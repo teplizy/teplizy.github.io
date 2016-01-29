@@ -1,8 +1,7 @@
-.QOverlay {
-	background-color: #fff;
-	z-index: 9999;
+.queryloader__overlay__percentage:before {
+	content: "Загрузка: ";
+	font-family: 'MS Serif', 'New York', sans-serif;
 }
-
-.QLoader {
-	height: 1px;
+#qLpercentage {
+	font-family: 'MS Serif', 'New York', sans-serif;
 }

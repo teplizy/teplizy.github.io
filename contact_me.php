@@ -1,8 +1,9 @@
 <?php
 if($_POST)
 {
-	$to_Email   	= "myemail@gmail.com"; //Replace with recipient email address
-	$subject        = 'Ah!! My email from Somebody out there...'; //Subject line for emails
+	// $to_Email   	= "limyevent@ya.ru"; //Replace with recipient email address
+	$to_Email   	= "kia-irk@ya.ru"; //Replace with recipient email address
+	$subject        = 'Кто-то написал сообщение с сайта...'; //Subject line for emails
 	
 	
 	//check if its an ajax request, exit if not
@@ -12,7 +13,7 @@ if($_POST)
 		$output = json_encode(
 		array(
 			'type'=>'error', 
-			'text' => 'Request must come from Ajax'
+			'text' => 'Запрос должен отправляться через AJAX'
 		));
 		
 		die($output);
@@ -21,7 +22,7 @@ if($_POST)
 	//check $_POST vars are set, exit if any missing
 	if(!isset($_POST["userName"]) || !isset($_POST["userEmail"]) || !isset($_POST["userMessage"]))
 	{
-		$output = json_encode(array('type'=>'error', 'text' => 'Input fields are empty!'));
+		$output = json_encode(array('type'=>'error', 'text' => 'Поля формы пустые!'));
 		die($output);
 	}
 
@@ -33,18 +34,18 @@ if($_POST)
 	//additional php validation
 	if(strlen($user_Name)<4) // If length is less than 4 it will throw an HTTP error.
 	{
-		$output = json_encode(array('type'=>'error', 'text' => 'Name is too short or empty!'));
+		$output = json_encode(array('type'=>'error', 'text' => 'Имя слишком короткое или отсутствует!'));
 		die($output);
 	}
 	if(!filter_var($user_Email, FILTER_VALIDATE_EMAIL)) //email validation
 	{
-		$output = json_encode(array('type'=>'error', 'text' => 'Please enter a valid email!'));
+		$output = json_encode(array('type'=>'error', 'text' => 'Введите правильный e-mail адрес!'));
 		die($output);
 	}
 	
 	if(strlen($user_Message)<5) //check emtpy message
 	{
-		$output = json_encode(array('type'=>'error', 'text' => 'Too short message! Please enter something.'));
+		$output = json_encode(array('type'=>'error', 'text' => 'Сообщение слишком короткое! Пожалуйста, добавьте еще что-нибудь.'));
 		die($output);
 	}
 	
@@ -57,10 +58,10 @@ if($_POST)
 	
 	if(!$sentMail)
 	{
-		$output = json_encode(array('type'=>'error', 'text' => 'Could not send mail! Please check your PHP mail configuration.'));
+		$output = json_encode(array('type'=>'error', 'text' => 'Не могу отправить сообщение! Проверьте конфигурацию сервера.'));
 		die($output);
 	}else{
-		$output = json_encode(array('type'=>'message', 'text' => 'Hi '.$user_Name .' Thank you for your email'));
+		$output = json_encode(array('type'=>'message', 'text' => 'Привет, '.$user_Name .'! Спасибо за ваше сообщение!'));
 		die($output);
 	}
 }

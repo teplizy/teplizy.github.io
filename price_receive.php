@@ -3,7 +3,7 @@ date_default_timezone_set('Asia/Irkutsk');
 mb_regex_encoding('utf-8');
 mb_internal_encoding('utf-8');
 $uploaddir = dirname(__FILE__) . '/price/';
-$pricedir = dirname(__FILE__) . '/images/';
+$pricedir = dirname(__FILE__) . '/files/';
 
 if (move_uploaded_file($_FILES['file']['tmp_name'], $uploaddir . $_FILES['file']['name']))
 {

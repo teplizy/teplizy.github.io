@@ -130,7 +130,8 @@ width:100%;
 .image_grid li img{
 width:100%;
 }
-#portfolio-items-wrap .portfolio-item {
+#portfolio-items-wrap .portfolio-item,
+#items-wrap .portfolio-item {
 width: 100% !important;
 }
 }
