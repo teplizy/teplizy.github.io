@@ -217,7 +217,7 @@ $(document).ready(function() {
 		maxWidth : 960
 	});
 
-	$('#showCreditTable').fancybox({
+	$('#showCreditTable, #showInstallments').fancybox({
 		width 	 : 960,
 		minWidth : 960,
 		maxWidth : 960
