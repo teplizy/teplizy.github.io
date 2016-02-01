@@ -2,7 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76cae770-6048-4622-be28-5f8a3a6da386" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/press-spring2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/portfolio/altayskay_old.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/portfolio/dachnay-2d_old.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/portfolio/dachnay-2du_old.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/portfolio/dachnay-2dum_old.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/portfolio/dachnay_old.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/portfolio/dachnica_old.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/portfolio/fermer_old.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/portfolio/gribok_old.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/portfolio/maria-delux_old.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/portfolio/mitlayder_old.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/portfolio/ogurchik_old.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/portfolio/perchina-m_old.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/portfolio/slava-lux_old.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/portfolio/slava-sp_old.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/portfolio/strelka_old.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/portfolio/uvis_old.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/altayskay.jpg" afterPath="$PROJECT_DIR$/images/portfolio/altayskay.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/dachnay-2d.jpg" afterPath="$PROJECT_DIR$/images/portfolio/dachnay-2d.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/dachnay-2du.jpg" afterPath="$PROJECT_DIR$/images/portfolio/dachnay-2du.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/dachnay-2dum.jpg" afterPath="$PROJECT_DIR$/images/portfolio/dachnay-2dum.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/dachnay.jpg" afterPath="$PROJECT_DIR$/images/portfolio/dachnay.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/dachnica.jpg" afterPath="$PROJECT_DIR$/images/portfolio/dachnica.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/fermer.jpg" afterPath="$PROJECT_DIR$/images/portfolio/fermer.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/gribok.jpg" afterPath="$PROJECT_DIR$/images/portfolio/gribok.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/maria-delux.jpg" afterPath="$PROJECT_DIR$/images/portfolio/maria-delux.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/mitlayder.jpg" afterPath="$PROJECT_DIR$/images/portfolio/mitlayder.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/ogurchik.jpg" afterPath="$PROJECT_DIR$/images/portfolio/ogurchik.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/perchina-m.jpg" afterPath="$PROJECT_DIR$/images/portfolio/perchina-m.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/slava-lux.jpg" afterPath="$PROJECT_DIR$/images/portfolio/slava-lux.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/slava-sp.jpg" afterPath="$PROJECT_DIR$/images/portfolio/slava-sp.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/strelka.jpg" afterPath="$PROJECT_DIR$/images/portfolio/strelka.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/uralochka.jpg" afterPath="$PROJECT_DIR$/images/portfolio/uralochka.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/uvis.jpg" afterPath="$PROJECT_DIR$/images/portfolio/uvis.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
@@ -29,14 +61,13 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.36296296">
-              <caret line="1951" column="122" selection-start-line="1951" selection-start-column="122" selection-end-line="1951" selection-end-column="122" />
+            <state vertical-scroll-proportion="0.36">
+              <caret line="374" column="54" selection-start-line="374" selection-start-column="54" selection-end-line="374" selection-end-column="54" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#section#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#section#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#div#0;n#div#38;n#div#2;n#section#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#39;n#div#2;n#section#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#noscript#0;n#div#0;n#div#39;n#div#2;n#section#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -154,6 +185,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="teplizy-irkutska.ru" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="teplizy-irkutska.ru" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -317,7 +366,13 @@
       <option name="project" value="LOCAL" />
       <updated>1454316518821</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="add news image">
+      <created>1454316797343</created>
+      <option name="number" value="00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1454316797343</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -362,7 +417,8 @@
     <MESSAGE value="update site" />
     <MESSAGE value="add maps" />
     <MESSAGE value="update news" />
-    <option name="LAST_COMMIT_MESSAGE" value="update news" />
+    <MESSAGE value="add news image" />
+    <option name="LAST_COMMIT_MESSAGE" value="add news image" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -378,7 +434,6 @@
             <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#div#0;n#div#38;n#div#2;n#section#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#39;n#div#2;n#section#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#noscript#0;n#div#0;n#div#39;n#div#2;n#section#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -399,14 +454,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36296296">
-          <caret line="1951" column="122" selection-start-line="1951" selection-start-column="122" selection-end-line="1951" selection-end-column="122" />
+        <state vertical-scroll-proportion="0.36">
+          <caret line="374" column="54" selection-start-line="374" selection-start-column="54" selection-end-line="374" selection-end-column="54" />
           <folding>
             <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#div#0;n#div#38;n#div#2;n#section#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#39;n#div#2;n#section#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#noscript#0;n#div#0;n#div#39;n#div#2;n#section#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
