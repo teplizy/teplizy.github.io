@@ -28,8 +28,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.58518517">
-              <caret line="1958" column="75" selection-start-line="1958" selection-start-column="75" selection-end-line="1958" selection-end-column="75" />
+            <state vertical-scroll-proportion="0.47407407">
+              <caret line="1956" column="21" selection-start-line="1956" selection-start-column="21" selection-end-line="1956" selection-end-column="21" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -260,7 +260,13 @@
       <option name="project" value="LOCAL" />
       <updated>1454315767445</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="add maps">
+      <created>1454315831964</created>
+      <option name="number" value="00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1454315831964</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -341,8 +347,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.58518517">
-          <caret line="1958" column="75" selection-start-line="1958" selection-start-column="75" selection-end-line="1958" selection-end-column="75" />
+        <state vertical-scroll-proportion="0.47407407">
+          <caret line="1956" column="21" selection-start-line="1956" selection-start-column="21" selection-end-line="1956" selection-end-column="21" />
           <folding>
             <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
