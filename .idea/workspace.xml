@@ -2,41 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76cae770-6048-4622-be28-5f8a3a6da386" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/portfolio/altayskay_old.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/portfolio/dachnay-2d_old.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/portfolio/dachnay-2du_old.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/portfolio/dachnay-2dum_old.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/portfolio/dachnay_old.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/portfolio/dachnica_old.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/portfolio/fermer_old.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/portfolio/gribok_old.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/portfolio/maria-delux_old.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/portfolio/mitlayder_old.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/portfolio/ogurchik_old.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/portfolio/perchina-m_old.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/portfolio/slava-lux_old.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/portfolio/slava-sp_old.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/portfolio/strelka_old.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/portfolio/uvis_old.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/altayskay.jpg" afterPath="$PROJECT_DIR$/images/portfolio/altayskay.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/dachnay-2d.jpg" afterPath="$PROJECT_DIR$/images/portfolio/dachnay-2d.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/dachnay-2du.jpg" afterPath="$PROJECT_DIR$/images/portfolio/dachnay-2du.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/dachnay-2dum.jpg" afterPath="$PROJECT_DIR$/images/portfolio/dachnay-2dum.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/dachnay.jpg" afterPath="$PROJECT_DIR$/images/portfolio/dachnay.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/dachnica.jpg" afterPath="$PROJECT_DIR$/images/portfolio/dachnica.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/fermer.jpg" afterPath="$PROJECT_DIR$/images/portfolio/fermer.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/gribok.jpg" afterPath="$PROJECT_DIR$/images/portfolio/gribok.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/maria-delux.jpg" afterPath="$PROJECT_DIR$/images/portfolio/maria-delux.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/mitlayder.jpg" afterPath="$PROJECT_DIR$/images/portfolio/mitlayder.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/ogurchik.jpg" afterPath="$PROJECT_DIR$/images/portfolio/ogurchik.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/perchina-m.jpg" afterPath="$PROJECT_DIR$/images/portfolio/perchina-m.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/slava-lux.jpg" afterPath="$PROJECT_DIR$/images/portfolio/slava-lux.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/slava-sp.jpg" afterPath="$PROJECT_DIR$/images/portfolio/slava-sp.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/strelka.jpg" afterPath="$PROJECT_DIR$/images/portfolio/strelka.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/uralochka.jpg" afterPath="$PROJECT_DIR$/images/portfolio/uralochka.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/uvis.jpg" afterPath="$PROJECT_DIR$/images/portfolio/uvis.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="teplizy-irkutska.ru.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -372,7 +340,13 @@
       <option name="project" value="LOCAL" />
       <updated>1454316797343</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="update greenhouses images">
+      <created>1454319664145</created>
+      <option name="number" value="00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1454319664145</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -418,7 +392,8 @@
     <MESSAGE value="add maps" />
     <MESSAGE value="update news" />
     <MESSAGE value="add news image" />
-    <option name="LAST_COMMIT_MESSAGE" value="add news image" />
+    <MESSAGE value="update greenhouses images" />
+    <option name="LAST_COMMIT_MESSAGE" value="update greenhouses images" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
