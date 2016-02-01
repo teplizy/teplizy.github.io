@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="76cae770-6048-4622-be28-5f8a3a6da386" name="Default" comment="">
+    <list default="true" id="76cae770-6048-4622-be28-5f8a3a6da386" name="Default" comment="update banner css">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/skdslider.css" afterPath="$PROJECT_DIR$/css/skdslider.css" />
     </list>
     <ignored path="teplizy-irkutska.ru.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,10 +25,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.64660496">
+            <state vertical-scroll-proportion="-7.627451">
               <caret line="70" column="33" selection-start-line="70" selection-start-column="33" selection-end-line="70" selection-end-column="33" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -54,11 +54,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="skdslider.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="skdslider.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/skdslider.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.333333">
-              <caret line="76" column="20" selection-start-line="76" selection-start-column="20" selection-end-line="76" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.21185185">
+              <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -93,8 +93,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/js/custom.js" />
-        <option value="$PROJECT_DIR$/css/skdslider.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/skdslider.css" />
       </list>
     </option>
   </component>
@@ -442,7 +442,13 @@
       <option name="project" value="LOCAL" />
       <updated>1454323241888</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="update banner css">
+      <created>1454323391001</created>
+      <option name="number" value="00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1454323391001</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -549,17 +555,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/skdslider.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.333333">
-          <caret line="76" column="20" selection-start-line="76" selection-start-column="20" selection-end-line="76" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.64660496">
+        <state vertical-scroll-proportion="-7.627451">
           <caret line="70" column="33" selection-start-line="70" selection-start-column="33" selection-end-line="70" selection-end-column="33" />
           <folding>
             <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -581,6 +579,14 @@
             <element signature="n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/skdslider.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21185185">
+          <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
