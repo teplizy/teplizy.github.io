@@ -2,24 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76cae770-6048-4622-be28-5f8a3a6da386" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/altayskay.jpg" afterPath="$PROJECT_DIR$/images/portfolio/altayskay.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/dachnay-2d.jpg" afterPath="$PROJECT_DIR$/images/portfolio/dachnay-2d.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/dachnay-2du.jpg" afterPath="$PROJECT_DIR$/images/portfolio/dachnay-2du.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/dachnay-2dum.jpg" afterPath="$PROJECT_DIR$/images/portfolio/dachnay-2dum.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/dachnay.jpg" afterPath="$PROJECT_DIR$/images/portfolio/dachnay.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/dachnica.jpg" afterPath="$PROJECT_DIR$/images/portfolio/dachnica.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/fermer.jpg" afterPath="$PROJECT_DIR$/images/portfolio/fermer.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/gribok.jpg" afterPath="$PROJECT_DIR$/images/portfolio/gribok.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/maria-delux.jpg" afterPath="$PROJECT_DIR$/images/portfolio/maria-delux.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/mitlayder.jpg" afterPath="$PROJECT_DIR$/images/portfolio/mitlayder.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/ogurchik.jpg" afterPath="$PROJECT_DIR$/images/portfolio/ogurchik.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/perchina-m.jpg" afterPath="$PROJECT_DIR$/images/portfolio/perchina-m.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/portfolio.psd" afterPath="$PROJECT_DIR$/images/portfolio/portfolio.psd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/slava-lux.jpg" afterPath="$PROJECT_DIR$/images/portfolio/slava-lux.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/slava-sp.jpg" afterPath="$PROJECT_DIR$/images/portfolio/slava-sp.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/strelka.jpg" afterPath="$PROJECT_DIR$/images/portfolio/strelka.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/uralochka.jpg" afterPath="$PROJECT_DIR$/images/portfolio/uralochka.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/portfolio/uvis.jpg" afterPath="$PROJECT_DIR$/images/portfolio/uvis.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
@@ -53,8 +35,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="3.3555555">
-              <caret line="426" column="42" selection-start-line="426" selection-start-column="42" selection-end-line="426" selection-end-column="42" />
+            <state vertical-scroll-proportion="0.75">
+              <caret line="692" column="22" selection-start-line="692" selection-start-column="22" selection-end-line="692" selection-end-column="22" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -552,7 +534,13 @@
       <option name="project" value="LOCAL" />
       <updated>1454731805558</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="update production info &amp; product photos">
+      <created>1454734188440</created>
+      <option name="number" value="00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1454734188440</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -606,7 +594,8 @@
     <MESSAGE value="banner text" />
     <MESSAGE value="update banner styles" />
     <MESSAGE value="update production info" />
-    <option name="LAST_COMMIT_MESSAGE" value="update production info" />
+    <MESSAGE value="update production info &amp; product photos" />
+    <option name="LAST_COMMIT_MESSAGE" value="update production info &amp; product photos" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -877,8 +866,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.3555555">
-          <caret line="426" column="42" selection-start-line="426" selection-start-column="42" selection-end-line="426" selection-end-column="42" />
+        <state vertical-scroll-proportion="0.75">
+          <caret line="692" column="22" selection-start-line="692" selection-start-column="22" selection-end-line="692" selection-end-column="22" />
           <folding>
             <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
