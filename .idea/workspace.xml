@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76cae770-6048-4622-be28-5f8a3a6da386" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/press-justbuy.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
@@ -36,8 +35,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.44907406">
-              <caret line="1819" column="380" selection-start-line="1819" selection-start-column="380" selection-end-line="1819" selection-end-column="380" />
+            <state vertical-scroll-proportion="0.5185185">
+              <caret line="2255" column="1142" selection-start-line="2255" selection-start-column="1142" selection-end-line="2255" selection-end-column="1142" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -322,12 +321,6 @@
       <created>1454303938809</created>
       <option name="number" value="Default" />
       <updated>1454303938809</updated>
-    </task>
-    <task id="LOCAL-00002" summary="update site">
-      <created>1454304200158</created>
-      <option name="number" value="00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1454304200158</updated>
     </task>
     <task id="LOCAL-00003" summary="update site">
       <created>1454304691202</created>
@@ -617,7 +610,13 @@
       <option name="project" value="LOCAL" />
       <updated>1455876760845</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="update news">
+      <created>1455877151547</created>
+      <option name="number" value="00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1455877151547</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -660,7 +659,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="update project" />
     <MESSAGE value="add maps" />
-    <MESSAGE value="update news" />
     <MESSAGE value="add news image" />
     <MESSAGE value="update greenhouses images" />
     <MESSAGE value="update about info" />
@@ -674,7 +672,8 @@
     <MESSAGE value="update priduction section title" />
     <MESSAGE value="update prices" />
     <MESSAGE value="update site" />
-    <option name="LAST_COMMIT_MESSAGE" value="update site" />
+    <MESSAGE value="update news" />
+    <option name="LAST_COMMIT_MESSAGE" value="update news" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1851,8 +1850,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44907406">
-          <caret line="1819" column="380" selection-start-line="1819" selection-start-column="380" selection-end-line="1819" selection-end-column="380" />
+        <state vertical-scroll-proportion="0.5185185">
+          <caret line="2255" column="1142" selection-start-line="2255" selection-start-column="1142" selection-end-line="2255" selection-end-column="1142" />
           <folding>
             <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
