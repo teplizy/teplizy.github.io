@@ -217,18 +217,6 @@ $(document).ready(function() {
 		maxWidth : 960
 	});
 
-	$('#showCreditTable, #showInstallments').fancybox({
-		width 	 : 960,
-		minWidth : 960,
-		maxWidth : 960
-	});
-
-	$('#showCuponForm').fancybox({
-		width 	 : 960,
-		minWidth : 960,
-		maxWidth : 960
-	});
-
 	$('.tel').fancybox({
 		scrolling   : 'no'
 	});
