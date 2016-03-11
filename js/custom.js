@@ -193,7 +193,8 @@ $(document).ready(function() {
 			//Ajax post data to server
             $.ajax({
                 type: "POST",
-                url: 'https://api.teplizy-irkutska.ru/'
+                url: 'https://api.teplizy-irkutska.ru/',
+                crossDomain: false,
                 data: post_data,
                 success: function (response) {
                     if (response.type == 'error') {
