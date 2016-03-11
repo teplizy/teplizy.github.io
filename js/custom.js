@@ -185,6 +185,8 @@ $(document).ready(function() {
 
 		//everything looks good! proceed...
 		if (proceed) {
+			yaCounter35936910.reachGoal('write_f');
+
 			//data to be sent to server
 			post_data = {'userName':user_name, 'userEmail':user_email, 'userMessage':user_message};
 
