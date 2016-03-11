@@ -191,7 +191,23 @@ $(document).ready(function() {
 			post_data = {'userName':user_name, 'userEmail':user_email, 'userMessage':user_message};
 
 			//Ajax post data to server
-			$.post('https://api.teplizy-irkutska.ru/', post_data, function (response) {
+            $.ajax({
+                type: "POST",
+                url: 'https://api.teplizy-irkutska.ru/'
+                data: post_data,
+                success: function (response) {
+                    if (response.type == 'error') {
+                        output = '<div class="error">'+response.text+'</div>';
+                    } else {
+                        output = '<div class="success">'+response.text+'</div>';
+                        $('#contact_form input').val('');
+                        $('#contact_form textarea').val('');
+                    }
+                    $('#result').hide().html(output).slideDown();
+                },
+                dataType: 'json'
+            });
+			/*$.post('https://api.teplizy-irkutska.ru/', post_data, function (response) {
 				//load json data from server and output message
 				if(response.type == 'error') {
 					output = '<div class="error">'+response.text+'</div>';
@@ -203,7 +219,7 @@ $(document).ready(function() {
 					$('#contact_form textarea').val(''); 
 				}
 				$("#result").hide().html(output).slideDown();
-			}, 'json');
+			}, 'json');*/
 		}
 	});
 
