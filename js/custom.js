@@ -196,7 +196,8 @@ $(document).ready(function() {
                 url: 'https://api.teplizy-irkutska.ru/',
                 crossDomain: false,
                 data: post_data,
-                success: function (response) {
+				dataType: 'json',
+                success: function(response) {
                     if (response.type == 'error') {
                         output = '<div class="error">'+response.text+'</div>';
                     } else {
@@ -205,8 +206,7 @@ $(document).ready(function() {
                         $('#contact_form textarea').val('');
                     }
                     $('#result').hide().html(output).slideDown();
-                },
-                dataType: 'json'
+                }
             });
 		}
 	});
