@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="76cae770-6048-4622-be28-5f8a3a6da386" name="Default" comment="add news">
+    <list default="true" id="76cae770-6048-4622-be28-5f8a3a6da386" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/custom.js" afterPath="$PROJECT_DIR$/js/custom.js" />
     </list>
@@ -178,8 +178,8 @@
       <file leaf-file-name="custom.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/custom.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="641">
-              <caret line="359" column="7" selection-start-line="359" selection-start-column="7" selection-end-line="359" selection-end-column="7" />
+            <state relative-caret-position="626">
+              <caret line="358" column="68" selection-start-line="358" selection-start-column="68" selection-end-line="358" selection-end-column="68" />
               <folding />
             </state>
           </provider>
@@ -304,14 +304,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1454303938809</updated>
-      <workItem from="1459993769642" duration="1438000" />
-    </task>
-    <task id="LOCAL-00017" summary="add maps">
-      <created>1454316357304</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1454316357304</updated>
+      <workItem from="1459993769642" duration="1583000" />
     </task>
     <task id="LOCAL-00018" summary="update news">
       <created>1454316419877</created>
@@ -649,11 +642,18 @@
       <option name="project" value="LOCAL" />
       <updated>1459995022220</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="update js">
+      <created>1459995223166</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1459995223166</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1438000" />
+    <option name="totallyTimeSpent" value="1583000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="796" extended-state="6" />
@@ -693,7 +693,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="update project" />
     <MESSAGE value="add maps" />
     <MESSAGE value="add news image" />
     <MESSAGE value="update greenhouses images" />
@@ -718,7 +717,8 @@
     <MESSAGE value="update JS and README" />
     <MESSAGE value="reorder content" />
     <MESSAGE value="add news" />
-    <option name="LAST_COMMIT_MESSAGE" value="add news" />
+    <MESSAGE value="update js" />
+    <option name="LAST_COMMIT_MESSAGE" value="update js" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -3254,8 +3254,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/custom.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="641">
-          <caret line="359" column="7" selection-start-line="359" selection-start-column="7" selection-end-line="359" selection-end-column="7" />
+        <state relative-caret-position="626">
+          <caret line="358" column="68" selection-start-line="358" selection-start-column="68" selection-end-line="358" selection-end-column="68" />
           <folding />
         </state>
       </provider>

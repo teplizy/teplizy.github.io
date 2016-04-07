@@ -348,14 +348,14 @@ $(document).ready(function() {
 
 	/* News trimming */
 	var pressroom = $('.pressroom .container .row'),
-		news_title = pressroom.find('div.com-sec span.title a'),
-		press_img = pressroom.find('div.press-img a'),
-		right_text = pressroom.find('div.right-text p'),
-		left_text = pressroom.find('div.left-text p');
+		news_title = pressroom.find('div[class*=com-sec] span.title a'),
+		press_img = pressroom.find('div[class*=com-sec] div.press-img a'),
+		right_text = pressroom.find('div[class*=com-sec] div.right-text p'),
+		left_text = pressroom.find('div[class*=com-sec] div.left-text p');
 	right_text.each(function () {
-		console.log(right_text.text().length);
+		console.log('Right text length: ' + right_text.text().length);
 	});
 	left_text.each(function () {
-		console.log(left_text.text().length);
+		console.log('Left text length: ' + left_text.text().length);
 	});
 });
