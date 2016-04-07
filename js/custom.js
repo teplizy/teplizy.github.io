@@ -353,9 +353,9 @@ $(document).ready(function() {
 		right_text = pressroom.find('div[class*=com-sec] div.right-text p'),
 		left_text = pressroom.find('div[class*=com-sec] div.left-text p');
 	right_text.each(function () {
-		console.log('Right text length: ' + right_text.text().length);
+		console.log('Right text length: ' + $(this).text().length);
 	});
 	left_text.each(function () {
-		console.log('Left text length: ' + left_text.text().length);
+		console.log('Left text length: ' + $(this).text().length);
 	});
 });
