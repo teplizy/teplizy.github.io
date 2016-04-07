@@ -352,6 +352,10 @@ $(document).ready(function() {
 		press_img = pressroom.find('div.press-img a'),
 		right_text = pressroom.find('div.right-text p'),
 		left_text = pressroom.find('div.left-text p');
-	console.log(right_text.text().length);
-	console.log(left_text.text().length);
+	right_text.each(function () {
+		console.log(right_text.text().length);
+	});
+	left_text.each(function () {
+		console.log(left_text.text().length);
+	});
 });
