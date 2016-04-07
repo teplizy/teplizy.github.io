@@ -369,8 +369,8 @@ $(document).ready(function() {
 	});
 });
 
-function scrollSection(id) {
-	this.preventDefault();
+function scrollSection(id, e) {
+	e.preventDefault();
 	$.fancybox.close();
 	var selectorHeight = $('.smint').height(),
 		goTo = $('div.' + id).offset().top - selectorHeight;
