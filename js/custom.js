@@ -355,7 +355,7 @@ $(document).ready(function() {
 		var _news_text = $(this).text(),
 			_news_len = _news_text.length;
 		if (_news_len > 335)
-			$(this).text(_news_text.substring(0, 340));
+			$(this).text(_news_text.substring(0, 350));
 		console.log('News text length: ' + $(this).text().length);
 		console.log('News index:', index);
 		console.log('News value:', value);
