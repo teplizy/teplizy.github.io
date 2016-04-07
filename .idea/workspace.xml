@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="76cae770-6048-4622-be28-5f8a3a6da386" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/custom.js" afterPath="$PROJECT_DIR$/js/custom.js" />
     </list>
     <ignored path="teplizy-irkutska.ru.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -308,14 +307,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1454303938809</updated>
-      <workItem from="1459993769642" duration="5943000" />
-    </task>
-    <task id="LOCAL-00049" summary="update prices">
-      <created>1455811037255</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1455811037255</updated>
+      <workItem from="1459993769642" duration="5952000" />
     </task>
     <task id="LOCAL-00050" summary="update site">
       <created>1455876760842</created>
@@ -653,11 +645,18 @@
       <option name="project" value="LOCAL" />
       <updated>1459999694602</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <task id="LOCAL-00098" summary="update js">
+      <created>1459999731552</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1459999731552</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5943000" />
+    <option name="totallyTimeSpent" value="5952000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="796" extended-state="6" />
