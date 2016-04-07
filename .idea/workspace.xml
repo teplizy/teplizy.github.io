@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="76cae770-6048-4622-be28-5f8a3a6da386" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/custom.js" afterPath="$PROJECT_DIR$/js/custom.js" />
     </list>
     <ignored path="teplizy-irkutska.ru.iws" />
@@ -171,8 +170,8 @@
       <file leaf-file-name="custom.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/custom.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="350" column="23" selection-start-line="350" selection-start-column="23" selection-end-line="350" selection-end-column="23" />
+            <state relative-caret-position="566">
+              <caret line="356" column="59" selection-start-line="356" selection-start-column="59" selection-end-line="356" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -297,14 +296,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1454303938809</updated>
-      <workItem from="1459993769642" duration="3092000" />
-    </task>
-    <task id="LOCAL-00021" summary="update greenhouses images">
-      <created>1454319664145</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1454319664145</updated>
+      <workItem from="1459993769642" duration="3530000" />
     </task>
     <task id="LOCAL-00022" summary="update greenhouses images">
       <created>1454320122019</created>
@@ -642,11 +634,18 @@
       <option name="project" value="LOCAL" />
       <updated>1459995795745</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="update js">
+      <created>1459996874462</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1459996874462</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3092000" />
+    <option name="totallyTimeSpent" value="3530000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="796" extended-state="6" />
@@ -3119,8 +3118,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/custom.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="350" column="23" selection-start-line="350" selection-start-column="23" selection-end-line="350" selection-end-column="23" />
+        <state relative-caret-position="566">
+          <caret line="356" column="59" selection-start-line="356" selection-start-column="59" selection-end-line="356" selection-end-column="59" />
           <folding />
         </state>
       </provider>

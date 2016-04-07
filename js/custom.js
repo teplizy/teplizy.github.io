@@ -352,6 +352,9 @@ $(document).ready(function() {
 		press_img = pressroom.find('div[class*=com-sec] div.press-img a'),
 		news_text = pressroom.find('div[class*=com-sec] div.text p');
 	news_text.each(function (index, value) {
+		var news_len = $(this).text().length;
+		if (news_len > 350)
+			$(this).text($(this).text().substring(0, 350));
 		console.log('News text length: ' + $(this).text().length);
 		console.log('News index:', index);
 		console.log('News value:', value);
