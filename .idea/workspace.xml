@@ -199,8 +199,8 @@
       <file leaf-file-name="green.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/green.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="41" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="41" />
+            <state relative-caret-position="225">
+              <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -371,14 +371,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1454303938809</updated>
-      <workItem from="1459993769642" duration="9743000" />
-    </task>
-    <task id="LOCAL-00070" summary="update js">
-      <created>1459996874462</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1459996874462</updated>
+      <workItem from="1459993769642" duration="9854000" />
     </task>
     <task id="LOCAL-00071" summary="update js">
       <created>1459997312227</created>
@@ -716,11 +709,18 @@
       <option name="project" value="LOCAL" />
       <updated>1460003314037</updated>
     </task>
-    <option name="localTasksCounter" value="119" />
+    <task id="LOCAL-00119" summary="update css">
+      <created>1460003550299</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1460003550299</updated>
+    </task>
+    <option name="localTasksCounter" value="120" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9743000" />
+    <option name="totallyTimeSpent" value="9854000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="796" extended-state="6" />
@@ -760,7 +760,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="add maps" />
     <MESSAGE value="update greenhouses images" />
     <MESSAGE value="update about info" />
     <MESSAGE value="update banner text" />
@@ -785,7 +784,8 @@
     <MESSAGE value="add news" />
     <MESSAGE value="update js" />
     <MESSAGE value="add news image" />
-    <option name="LAST_COMMIT_MESSAGE" value="add news image" />
+    <MESSAGE value="update css" />
+    <option name="LAST_COMMIT_MESSAGE" value="update css" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -3251,8 +3251,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/green.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="41" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="41" />
+        <state relative-caret-position="225">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
           <folding />
         </state>
       </provider>
