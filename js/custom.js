@@ -374,5 +374,5 @@ function scrollSection(id, e) {
 	$.fancybox.close();
 	var selectorHeight = $('.smint').height(),
 		goTo = $('div.' + id).offset().top - selectorHeight;
-	$('html, body').animate({ scrollTop: goTo }, scrollSpeed);
+	$('html, body').animate({ scrollTop: goTo }, 1000);
 }
