@@ -306,14 +306,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1454303938809</updated>
-      <workItem from="1459993769642" duration="4025000" />
-    </task>
-    <task id="LOCAL-00030" summary="update banner css">
-      <created>1454323241888</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1454323241888</updated>
+      <workItem from="1459993769642" duration="4054000" />
     </task>
     <task id="LOCAL-00031" summary="update banner css">
       <created>1454323391001</created>
@@ -651,11 +644,18 @@
       <option name="project" value="LOCAL" />
       <updated>1459997764419</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="update js">
+      <created>1459997808338</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1459997808338</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4025000" />
+    <option name="totallyTimeSpent" value="4054000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="796" extended-state="6" />
