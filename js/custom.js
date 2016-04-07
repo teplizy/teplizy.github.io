@@ -346,6 +346,14 @@ $(document).ready(function() {
 		e.preventDefault();
 	});
 
+	$('[data-goto]').click(function (e) {
+		$.fancybox.close();
+		var selectorHeight = $('.smint').height(),
+			id = $(this).data('goto'),
+			goto = $('div.' + id).offset().top - selectorHeight;
+		$('html, body').animate({ scrollTop: goto }, scrollSpeed);
+	});
+
 	/* News substring */
 	var pressroom = $('.pressroom .container .row'),
 		news_title = pressroom.find('div[class*=com-sec] span.title a'),
