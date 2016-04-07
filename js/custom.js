@@ -367,13 +367,12 @@ $(document).ready(function() {
 			$(this).after('<div class="hide"><div id="news-' + fbd + '" style="text-align:center;font-size:18px;z-index:9000;"><p><img src="images/logo.png" alt=""></p><h1>' + news_title[index].text + '</h1><p>' + _news_html + '</p></div></div>');
 		}
 	});
-
-	pressroom.on('click', '[data-goto]', function (e) {
-		e.preventDefault();
-		$.fancybox.close();
-		var selectorHeight = $('.smint').height(),
-			id = $(this).data('goto'),
-			goto = $('div.' + id).offset().top - selectorHeight;
-		$('html, body').animate({ scrollTop: goto }, scrollSpeed);
-	});
 });
+
+function scrollSection(id) {
+	this.preventDefault();
+	$.fancybox.close();
+	var selectorHeight = $('.smint').height(),
+		goTo = $('div.' + id).offset().top - selectorHeight;
+	$('html, body').animate({ scrollTop: goTo }, scrollSpeed);
+}
