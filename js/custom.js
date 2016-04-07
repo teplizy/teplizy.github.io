@@ -360,7 +360,9 @@ $(document).ready(function() {
 				fbd = date.replace(/\s(\d{2})\/(\d{2})\/(\d{4})/g, '$1$2$3');
 			$(this).html(_news_text.substring(0, 220) + '...');
 			press_img[index].href = '#news-' + fbd;
+			press_img[index].className = 'fancybox';
 			news_title[index].href = '#news-' + fbd;
+			news_title[index].className = 'fancyox';
 			$(this).after('<a href="#news-' + fbd + '" class="fancybox">подробнее</a>');
 			$(this).after('<div class="hide"><div id="news-' + fbd + '" style="text-align:center;font-size:18px;z-index:9000;"><p><img src="images/logo.png" alt=""></p><h1>' + news_title[index].text + '</h1><p>' + _news_html + '</p></div></div>');
 		}
