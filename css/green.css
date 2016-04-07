@@ -78,7 +78,7 @@ h1.light{
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #BED431;
+  background: #BED431;
 }
 .skill-bar-percent {
 	background:#BED431;
