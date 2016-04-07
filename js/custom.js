@@ -346,15 +346,6 @@ $(document).ready(function() {
 		e.preventDefault();
 	});
 
-	$('a[data-goto]').click(function (e) {
-		e.preventDefault();
-		$.fancybox.close();
-		var selectorHeight = $('.smint').height(),
-			id = $(this).data('goto'),
-			goto = $('div.' + id).offset().top - selectorHeight;
-		$('html, body').animate({ scrollTop: goto }, scrollSpeed);
-	});
-
 	/* News substring */
 	var pressroom = $('.pressroom .container .row'),
 		news_title = pressroom.find('div[class*=com-sec] span.title a'),
@@ -375,5 +366,14 @@ $(document).ready(function() {
 			$(this).after('<a href="#news-' + fbd + '" class="fancybox">подробнее</a>');
 			$(this).after('<div class="hide"><div id="news-' + fbd + '" style="text-align:center;font-size:18px;z-index:9000;"><p><img src="images/logo.png" alt=""></p><h1>' + news_title[index].text + '</h1><p>' + _news_html + '</p></div></div>');
 		}
+	});
+
+	pressroom.on('click', '[data-goto]', function (e) {
+		e.preventDefault();
+		$.fancybox.close();
+		var selectorHeight = $('.smint').height(),
+			id = $(this).data('goto'),
+			goto = $('div.' + id).offset().top - selectorHeight;
+		$('html, body').animate({ scrollTop: goto }, scrollSpeed);
 	});
 });
