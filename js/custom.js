@@ -355,11 +355,11 @@ $(document).ready(function() {
 		var _news_text = $(this).text(),
 			_news_len = _news_text.length;
 		if (_news_len > 360) {
+			var date = $(this).prev().text();
+			date.replace(new RegExp('\s\/', 'g'), '');
 			$(this).html(_news_text.substring(0, 220) + '&hellip;');
-			$(this).after('<a href="#news" class="fancybox">подробнее</a>');
+			$(this).after('<a href="#news-' + date + '" class="fancybox">подробнее</a>');
+			$(this).after('<div class="hide"><div id="news-' + date + '" style="text-align:center;font-size:18px;z-index:9000;"><p><img src="images/logo.png" alt=""></p><h1>' + news_title[index] + '</h1><p>' + $(this).html() + '</p></div></div>');
 		}
-		console.log('News text length: ' + $(this).text().length);
-		console.log('News index:', index);
-		console.log('News value:', value);
 	});
 });
