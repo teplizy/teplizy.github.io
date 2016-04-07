@@ -362,7 +362,7 @@ $(document).ready(function() {
 			press_img[index].href = '#news-' + fbd;
 			press_img[index].className = 'fancybox';
 			news_title[index].href = '#news-' + fbd;
-			news_title[index].className = 'fancyox';
+			news_title[index].className = 'fancybox';
 			$(this).after('<a href="#news-' + fbd + '" class="fancybox">подробнее</a>');
 			$(this).after('<div class="hide"><div id="news-' + fbd + '" style="text-align:center;font-size:18px;z-index:9000;"><p><img src="images/logo.png" alt=""></p><h1>' + news_title[index].text + '</h1><p>' + _news_html + '</p></div></div>');
 		}
