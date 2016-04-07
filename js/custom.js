@@ -346,7 +346,8 @@ $(document).ready(function() {
 		e.preventDefault();
 	});
 
-	$('[data-goto]').click(function (e) {
+	$('a[data-goto]').click(function (e) {
+		e.preventDefault();
 		$.fancybox.close();
 		var selectorHeight = $('.smint').height(),
 			id = $(this).data('goto'),
