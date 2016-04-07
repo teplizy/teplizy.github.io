@@ -346,7 +346,7 @@ $(document).ready(function() {
 		e.preventDefault();
 	});
 
-	/* News trimming */
+	/* News substring */
 	var pressroom = $('.pressroom .container .row'),
 		news_title = pressroom.find('div[class*=com-sec] span.title a'),
 		press_img = pressroom.find('div[class*=com-sec] div.press-img a'),
