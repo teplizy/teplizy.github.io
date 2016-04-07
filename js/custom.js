@@ -345,4 +345,13 @@ $(document).ready(function() {
 		$("html, body").animate({ scrollTop: goTo }, scrollSpeed);
 		e.preventDefault();
 	});
+
+	/* News trimming */
+	var pressroom = $('.pressroom .container .row'),
+		news_title = pressroom.find('div.com-sec span.title a'),
+		press_img = pressroom.find('div.press-img a'),
+		right_text = pressroom.find('div.right-text p'),
+		left_text = pressroom.find('div.left-text p');
+	console.log(right_text.text().length);
+	console.log(left_text.text().length);
 });
