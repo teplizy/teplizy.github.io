@@ -355,11 +355,11 @@ $(document).ready(function() {
 		var _news_text = $(this).text(),
 			_news_len = _news_text.length;
 		if (_news_len > 360) {
-			var date = $(this).prev().text();
-			date.replace(/\s(\d{2})\/(\d{2})\/(\d{4})/g, '$1$2$3');
+			var date = $(this).prev().text(),
+				fbd = date.replace(/\s(\d{2})\/(\d{2})\/(\d{4})/g, '$1$2$3');
 			$(this).html(_news_text.substring(0, 220) + '&hellip;');
-			$(this).after('<a href="#news-' + date + '" class="fancybox">подробнее</a>');
-			$(this).after('<div class="hide"><div id="news-' + date + '" style="text-align:center;font-size:18px;z-index:9000;"><p><img src="images/logo.png" alt=""></p><h1>' + news_title[index] + '</h1><p>' + $(this).html() + '</p></div></div>');
+			$(this).after('<a href="#news-' + fbd + '" class="fancybox">подробнее</a>');
+			$(this).after('<div class="hide"><div id="news-' + fbd + '" style="text-align:center;font-size:18px;z-index:9000;"><p><img src="images/logo.png" alt=""></p><h1>' + news_title[index] + '</h1><p>' + $(this).html() + '</p></div></div>');
 		}
 	});
 });
