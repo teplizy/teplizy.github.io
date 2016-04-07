@@ -352,10 +352,14 @@ $(document).ready(function() {
 		press_img = pressroom.find('div[class*=com-sec] div.press-img a'),
 		right_text = pressroom.find('div[class*=com-sec] div.right-text p'),
 		left_text = pressroom.find('div[class*=com-sec] div.left-text p');
-	right_text.each(function () {
+	right_text.each(function (index, value) {
 		console.log('Right text length: ' + $(this).text().length);
+		console.log('Right index:', index);
+		console.log('Right value:', value);
 	});
-	left_text.each(function () {
+	left_text.each(function (index, value) {
 		console.log('Left text length: ' + $(this).text().length);
+		console.log('Left index:', index);
+		console.log('Left value:', value);
 	});
 });
