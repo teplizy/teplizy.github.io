@@ -1,7 +1,7 @@
 $(document).ready(function() {
 	// "use strict";
 	
-	var scrollSpeed = 100;
+	var scrollSpeed = 500;
 
 	//stickey header
 	$(window).scroll(function() {
