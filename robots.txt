@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /*.pdf
+Host: teplizy-irkutska.ru
