@@ -71,3 +71,10 @@
     margin-top: 8px;
     display: inline-block;
 }
+
+.about .h4 {
+    margin: 25px 0 5px 0;
+    font-weight: 600;
+    font-size: 18px;
+    color: #676767;
+}
