@@ -1,3 +1,6 @@
+.main-text h1 { font-size: 40px; }
+.main-text h2 { font-size: 29px; }
+
 .h1 {
     font-size: 55px;
     font-weight: 800;
@@ -14,4 +17,53 @@
     font-size: 48px;
     font-weight: inherit;
     color: #BED431;
+}
+
+.h2 {
+    line-height: 1.1;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 52px;
+    font-weight: 500;
+    color: #676767;
+    letter-spacing: -2px;
+}
+
+.h3 {
+    font-weight: 300;
+    line-height: 1.1;
+    color: #676767;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 32px;
+}
+
+.h4 {
+    color: #393939;
+    font-weight: 300;
+    line-height: 1.1;
+    font-size: 28px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.freshdesignweb .h5 {
+    color: #fff;
+    margin: 15px 0 0 0;
+    width: 80%;
+    display: inline-block;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 1.1;
+}
+
+.table .h2 {
+    color: #fff;
+}
+
+.pricing .table .h2 {
+    font-size: 48px;
+    padding: 20px 0;
+    margin-top: 8px;
+    display: inline-block;
 }
