@@ -78,3 +78,31 @@
     font-size: 18px;
     color: #676767;
 }
+
+.team-sec .h4 {
+    color: #BED431;
+}
+
+.team-sec .detail-left .h4 {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.sponsors .h1 {
+    color: #676767;
+}
+
+.sponsors .h1.light {
+    color: #333;
+}
+
+.sponsors .h1.sponsor {
+    color: #BED431;
+    font-size: 60px;
+    display: inline-block;
+}
+
+.contact .title .h1 {
+    color: #fff;
+}
