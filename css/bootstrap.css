@@ -448,8 +448,8 @@ h1{
 text-transform: none;
 letter-spacing: -2px;
 color: #676767 !important;
-margin-top: 0px;
-margin-bottom: 0px;
+margin-top: 0;
+margin-bottom: 0;
 }
 h1.light{
   font-size: 48px;
