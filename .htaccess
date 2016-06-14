@@ -1,1 +1,5 @@
 ErrorDocument 404 http://teplizy-irkutska.ru/
+
+RewriteEngine On
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.html\ HTTP/
+RewriteRule ^index\.html$ https://teplizy-irkutska.ru/ [R=301,L]
