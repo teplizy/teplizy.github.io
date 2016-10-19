@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76cae770-6048-4622-be28-5f8a3a6da386" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/files/price-SPK.pdf" afterPath="$PROJECT_DIR$/files/price-SPK.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/files/price-teplizy.pdf" afterPath="$PROJECT_DIR$/files/price-teplizy.pdf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="teplizy-irkutska.ru.iws" />
@@ -98,38 +96,7 @@
     <panes>
       <pane id="Scratches" />
       <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="teplizy-irkutska.ru" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="teplizy-irkutska.ru" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="teplizy-irkutska.ru" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="teplizy-irkutska.ru" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="teplizy-irkutska.ru" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="files" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
+        <subPane />
       </pane>
       <pane id="Scope" />
     </panes>
@@ -266,14 +233,7 @@
       <workItem from="1464782265988" duration="120000" />
       <workItem from="1464952577071" duration="1714000" />
       <workItem from="1473214307902" duration="1055000" />
-      <workItem from="1475477237841" duration="69000" />
-    </task>
-    <task id="LOCAL-00088" summary="update js">
-      <created>1459999047678</created>
-      <option name="number" value="00088" />
-      <option name="presentableId" value="LOCAL-00088" />
-      <option name="project" value="LOCAL" />
-      <updated>1459999047678</updated>
+      <workItem from="1475477237841" duration="221000" />
     </task>
     <task id="LOCAL-00089" summary="update js">
       <created>1459999111639</created>
@@ -611,18 +571,25 @@
       <option name="project" value="LOCAL" />
       <updated>1473218162737</updated>
     </task>
-    <option name="localTasksCounter" value="137" />
+    <task id="LOCAL-00137" summary="обновление прайсов">
+      <created>1475477320841</created>
+      <option name="number" value="00137" />
+      <option name="presentableId" value="LOCAL-00137" />
+      <option name="project" value="LOCAL" />
+      <updated>1475477320843</updated>
+    </task>
+    <option name="localTasksCounter" value="138" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20623000" />
+    <option name="totallyTimeSpent" value="20775000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="750" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="SvgViewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -656,7 +623,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="update production info &amp; product photos" />
     <MESSAGE value="update production info" />
     <MESSAGE value="update priduction section title" />
     <MESSAGE value="update prices" />
@@ -681,7 +647,8 @@
     <MESSAGE value="update homepage &amp; custom css" />
     <MESSAGE value="final update: replacing all header tags on div tags." />
     <MESSAGE value="update price" />
-    <option name="LAST_COMMIT_MESSAGE" value="update price" />
+    <MESSAGE value="обновление прайсов" />
+    <option name="LAST_COMMIT_MESSAGE" value="обновление прайсов" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
