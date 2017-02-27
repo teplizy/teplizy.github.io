@@ -1,0 +1,219 @@
+<div class="section s2" id="portfolio">
+    <a name="catalog"></a>
+    <section class="portfolio no-padding-bottom">
+        <div class="container">
+            <div class="title animate fadeIn">
+                <div class="h1 light">Коллекция 2017-2018 гг.</div>
+                <br>
+                <div class="h1">Теплицы и Парники</div>
+                <p class="title-detail">Здесь представлен не самый полный набор предлагаемой продукции.
+                    <br>Эта галерея лишь для ознакомления с продукцией.
+                    <br>Для ознакомления со всем спектром приходите к нам в магазины.</p>
+            </div>
+        </div>
+        <div id="filters">
+            <ul class="clearfix">
+                <li><a href="#" data-filter="*" class="active"><h3>Все</h3></a></li>
+                <li><a href="#" data-filter=".spk"><h3>Под сотовый поликарбонат</h3></a></li>
+                <li><a href="#" data-filter=".plenka"><h3>Под пленку</h3></a></li>
+                <li><a href="#" data-filter=".parniki"><h3>Парники</h3></a></li>
+            </ul>
+        </div>
+        <div id="portfolio-items-wrap">
+            {% for post in site.categories.greenhouse reversed %}
+            <div class="portfolio-item one-third column {{ post.tag }}">
+                <div class="freshdesignweb">
+                    <div class="image_grid portfolio_4col">
+                        <ul class="portfolio_list da-thumbs">
+                            <li>
+                                <div class="slideUp"><img src="/images/portfolio/{{ post.image }}" alt=""></div>
+                                <article class="da-animate da-slideFromRight" style="display: block;">
+                                    <a class="fancybox photo-icon" href="#{{ post.href_id }}">
+                                        <i class="{{ post.icon }}"></i>
+                                        <div class="h5">{{ post.type }}<br/><span>{{ post.title }}</span></div>
+                                        {% for price in post.prices %}
+                                        <span>{{ price }}</span>
+                                        {% endfor %}
+                                    </a>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div style="width:auto;height:auto;overflow:auto;position:relative;" class="hide">
+                <div id="{{ post.href_id }}" style="text-align:center;font-size:18px;z-index:9000">
+                    <p><img src="{{ site.logo }}" alt=""></p>
+                    <div class="h1 light">{{ post.type_title }}</div>
+                    <div class="h1">{{ post.title }}</div>
+                    <div class="h3">Описание</div>
+                    {{ post.content }}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </section>
+    <section class="latest-pro">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="animate fadeIn">
+                    <div class="h2">Не нашли что вам подходит?</div>
+                    <p class="title-detail">Свяжитесь с нами и мы подберем теплицу нужную вам по телефонам:
+                        <br/><b>(3952) 72-20-72</b>, <b>(3952) 96-03-31</b>
+                        <br/>или по эл. почте: <a href="mailto:tepliza38@yandex.ru">tepliza38@yandex.ru</a></p>
+                </div>
+                <img class="devices animate bounceInUp" src="/images/devices.png" alt=""/></div>
+        </div>
+    </section>
+    <section class="portfolio no-padding-bottom">
+        <div class="container">
+            <div class="main-text">
+                <h1>Современные теплицы из поликарбоната</h1>
+                <p>Сегодня многие владельцы собственных приусадебных участков самостоятельно сооружают теплицы, чтобы
+                    повысить урожайность. Но для создания такого рода «парников» требуются определенные навыки, которыми
+                    обладают далеко не все. Поэтому специалисты советуют приобретать уже готовые варианты – теплицы
+                    (поликарбонат). Тем более что современные теплицы из сотового поликарбоната поражают воображение
+                    своим разнообразием. В их числе есть и бюджетные модели. Купить теплицу из поликарбоната недорого и
+                    по заданным параметрам могут не только огородники-любители, но и крупные садоводческие, а также
+                    сельскохозяйственные предприятия.</p>
+                <H2> Отличительные черты и плюсы теплицы из сотового поликарбоната</H2>
+                <p>Сотовый поликарбонат намного практичнее любого, даже самого дорогого пленочного укрывного материала.
+                    Он славится долгим эксплуатационным сроком, надежностью, значительной теплоизоляцией, прочностью и
+                    способностью выдерживать жесткий температурный режим, начиная от минус 60-ти и заканчивая плюс
+                    120-ти градусов. Изделие, то есть теплица из сотового поликарбоната, цена на которую в нашей фирме
+                    весьма доступная, обладает стойкостью к механическим повреждениям, не поддерживает процесс горения,
+                    выдерживает экстремальные нагрузки и рассеивает свет, исходящий от солнца. Благодаря этому, листья
+                    растений не страдают в парниках от ожогов.</p>
+                <p>Каркас изделия имеет арочную форму и является достаточно объемным. На изготовление таких теплиц идут
+                    профильные трубы из высококачественной стали, которые не нуждаются в зимнем демонтаже, поскольку без
+                    проблем выносят значительные нагрузки от снега и наледей.</p>
+                <H2> Нужна поликарбонатная теплица? Цена/качество вас порадуют! </H2>
+                <p>Несколько слов о модельном ряде – мы предлагаем самые разные теплицы, ведь наша организация
+                    предлагает купить парник, цена на который будет очень низкой.</p>
+                <p>Арочные сборочные изделия монтируются достаточно оперативно и легко. К данной категории относится
+                    теплица, которую называют «Северной». Помимо этого, в продаже имеется модель усиленная «Северная» –
+                    вариант с нетрадиционной конструкцией - расстояние между дугами у такого парника равняется не
+                    классическому метру, а 65-ти сантиметрам. Оба варианта обладают пятью стяжками, расположенными в
+                    горизонтальной плоскости. Верхние стяжки нивелируют воздействие снежного покрова на поликарбонатную
+                    крышу, что сводит к нулю ее продавливание. Нижние стяжки обладают отростками, расположенными в
+                    вертикальном направлении.</p>
+                <p>Во процессе создания каркаса низовые стяжки размещаются на фундаменте, далее на них располагают дуги,
+                    выполненные из металла, а также так называемые сварные торцы. Все сформировавшиеся узлы скрепляются
+                    посредством саморезов. Далее дуги, а также торцы сочленяются стяжками, расположенными в верхней
+                    горизонтальной плоскости и крепятся болтами к уже установленным дугам и торцам.</p>
+                <p>На создание каркаса уходит не более пары часов. Сборные изделия накрываются поликарбонатом и
+                    отличаются значимыми достоинствами. Их высокая степень надежности обусловлена участием в их создании
+                    высококвалифицированных инженеров, которые делают свои расчеты, принимая во внимание суровый
+                    российский климат. Собрать такую теплицу сможет любой хозяин дачи, так как к ней прилагается
+                    подробная инструкция. Именно поэтому, в первую очередь, начинающим садоводам мы предлагаем данный
+                    вариант, тем более что у нас вы можете купить парник недорого.</p>
+                <H2> Вы уже готовы купить теплицу недорого? </H2>
+                <p>Сегодня многие компании реализуют такие изделия по демократичной цене, всегда предоставляют приличные
+                    скидки, предлагая бесплатную доставку, а также сборку. К таковым компаниям относится и наша
+                    организация. И если вы решите купить теплицу из поликарбоната, то мы всегда будем рады помочь вам
+                    определиться с выбором. Поспешите! Сегодня еще действуют выгодные цены, по которым вы сможете
+                    приобрести эту незаменимую на любом дачном участке конструкцию с минимальными затратами!</p>
+                <p>Ваш магазин теплиц и сотового поликарбоната «Абрикос».</p>
+                <hr>
+            </div>
+
+            <div class="title animate fadeIn">
+                <div class="h1 light">Почему Кронос?</div>
+                <br>
+                <div class="h1">Сотовый поликарбонат</div>
+                <p class="title-detail">Сотовый поликарбонат необходим для хорошего урожая.
+                    <br/>Выбирая лучший вы обеспечивайте длительный срок эксплуатации.
+                    <br/>Покупая поликарбонат компании «Кронос» вы не беспокоитесь о защите урожая более 20 лет.</p>
+            </div>
+        </div>
+        <div class="items-wrap">
+            {% for spk in site.categories.spk reversed %}
+            <div class="portfolio-item one-third column">
+                <div class="freshdesignweb">
+                    <div class="image_grid portfolio_4col">
+                        <ul class="portfolio_list da-thumbs">
+                            <li>
+                                <div class="slideUp"><img src="/images/spk/{{ spk.image }}" alt=""></div>
+                                <article class="da-animate da-slideFromRight" style="display: block;">
+                                    <a class="fancybox photo-icon" href="/images/spk/{{ spk.image_large }}"
+                                       title="{{ spk.tooltip }}" rel="spk-gallery">
+                                        <i class="{{ spk.icon }}"></i>
+                                        <div class="h5">{{ spk.type_title }}<br/><span>{{ spk.title }}</span></div>
+                                        {% for price in spk.prices %}
+                                            <span>{{ price }}</span>
+                                        {% endfor %}
+                                    </a>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </section>
+    <section class="portfolio no-padding-bottom">
+        <div class="container">
+            <div class="title animate fadeIn">
+                <div class="h1 light">Популярная</div>
+                <div class="h1">Продукция</div>
+                <p class="title-detail"><strong>Помимо прочего мы также предлагаем:</strong>
+                    <br/>Сотовый полипропилен; Душевые баки; Козырьки; Септик-накопители;
+                    <br/>Автонавесы; Детские спортивные комплексы; Ёмкости; Мусорные баки.</p>
+            </div>
+        </div>
+        <div class="items-wrap">
+            {% for other in site.categories.other %}
+            {% assign words = other.content | number_of_words %}
+            <div class="portfolio-item one-third column">
+                <div class="freshdesignweb">
+                    <div class="image_grid portfolio_4col">
+                        <ul id="list" class="portfolio_list da-thumbs">
+                            <li>
+                                <div class="slideUp"><img src="/images/other/{{ other.image }}"></div>
+                                <article class="da-animate da-slideFromRight" style="display: block;">
+                                    <a class="fancybox photo-icon"
+                                       href="#{% if words > 1 %}{{ other.href_id }}{% else %}telephone{% endif %}">
+                                        <i class="{{ other.icon }}"></i>
+                                        <div class="h5">
+                                            {{ other.subtitle }}<br/>
+                                            <span style="text-transform: uppercase">{{ other.title }}</span>
+                                        </div>
+                                        <span>&nbsp;</span>
+                                    </a>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            {% if words > 1 %}
+            <div style="width:auto;height:auto;overflow:auto;position:relative;" class="hide">
+                <div id="{{ other.href_id }}" style="text-align:center;font-size:18px;">
+                    <p><img src="{{ site.logo }}" alt=""></p>
+                    <div class="h1 light">{{ other.light_title }}</div>
+                    <div class="h1">{{ other.title }}</div>
+                    {{ other.content }}
+                </div>
+            </div>
+            {% endif %}
+            {% endfor %}
+        </div>
+    </section>
+    <section class="latest-pro" style="padding-bottom: 50px;">
+        <div class="row">
+            <div class="col-md-12">
+                <div class=" animate fadeIn">
+                    <div class="h2">Есть вопросы?</div>
+                    <p class="title-detail">Задавайте свои вопросы по телефонам:
+                        <br/><b>(3952) 72-20-72</b>, <b>(3952) 96-03-31</b>
+                        <br/>или по эл. почте: <a href="mailto:polikarbonat38@yandex.ru">polikarbonat38@yandex.ru</a>
+                    </p>
+                </div>
+                <img class="devices animate bounceInUp" src="/images/skamejka.png" alt="" >
+            </div>
+        </div>
+    </section>
+</div>

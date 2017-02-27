@@ -1,0 +1,46 @@
+# Site settings
+title: Теплицы и поликарбонат в Иркутске. Купить недорого теплицу из сотового поликарбоната. Цены на парники и
+  поликарбонатные теплицы.
+description: Для того чтобы вырастить достойный урожай, который станет не только украшением стола, но и предметом
+  гордости любого огородника, вам наверняка потребуется легкая, удобная, качественная и современная теплица из
+  поликарбоната. Именно поликарбонатные теплицы (парники) мы и предлагаем вам приобрести по цене, которая существенно
+  ниже, чем вам предложат на рынке.
+baseurl:
+url: https://teplizy-irkutska.ru
+logo: /images/logo.png
+
+# Build settings
+markdown: kramdown
+
+# Premalink
+permalink: pretty
+
+# Pagination config
+paginate: 16
+
+# Files/Folders to be exclude from generated _site folder
+exclude:
+  - CNAME
+  - .gitignore
+  - .sass-cache
+  - README.md
+  - _sass
+  - .htaccess
+  - price_receiver.php
+  - getCupon
+  - source
+  - _index.html
+
+# Sass conversion config
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Add Jekyll plugins
+gems:
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jemoji
+

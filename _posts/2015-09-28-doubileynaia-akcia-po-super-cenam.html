@@ -1,0 +1,56 @@
+---
+title: Доюбилейская акция по супер ценам
+image: press-cupon.png
+category: news
+expires: 2015-10-31
+---
+
+<p>
+    Купите каркас теплицы «Уралочка» по ценам ниже цен 2013 г. на 5%, а еще получи купон на дополнительные 5% скидки.
+    Эта акция действовать до 31 октября 2015 г. Кроме этого доставим теплицу вместе с купленным у нас поликарбонатом
+    бесплатно по городу.
+</p>
+
+<p>
+    Для получения купона на скидку требуется указать некоторые персональные данные. Это быстро и не займет много
+    времени. Заполните все поля, нажмите кнопку «Получить купон», распечатайте его и приходите с ним в любой магазин
+    теплиц и сотового поликарбоната «Абрикос», вас там уже будут ждать.
+</p>
+
+<form class="form-horizontal" style="max-width:900px" action="/getCupon/" method="post" id="cuponForm">
+    <div class="form-group">
+        <label for="inputSuname" class="col-sm-2 control-label">Фамилия</label>
+        <div class="col-sm-10">
+            <input type="text" name="suname" class="form-control" id="inputSuname" placeholder="Иванов">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="inputName" class="col-sm-2 control-label">Имя</label>
+        <div class="col-sm-10">
+            <input type="text" name="name" class="form-control" id="inputName" placeholder="Иван">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="inputMidname" class="col-sm-2 control-label">Отчество</label>
+        <div class="col-sm-10">
+            <input type="text" name="midlname" class="form-control" id="inputMidname" placeholder="Иванович">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="inputPhone" class="col-sm-2 control-label">Мобильный</label>
+        <div class="col-sm-10">
+            <input type="text" name="mobile" class="form-control" id="inputPhone" placeholder="+7 (999) 999-99-99">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="inputEmail" class="col-sm-2 control-label">E-mail</label>
+        <div class="col-sm-10">
+            <input type="text" name="email" class="form-control" id="inputEmail" placeholder="ivan@ivanov.ru">
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10 text-left">
+            <button type="submit" class="btn btn-primary" disabled>Получить купон</button>
+        </div>
+    </div>
+</form>

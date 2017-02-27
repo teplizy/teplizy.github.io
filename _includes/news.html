@@ -1,0 +1,67 @@
+<div class="section s4">
+    <a name="news"></a>
+    <section class="pressroom">
+        <div class="container">
+            <div class="row">
+                <div class="title animate fadeIn">
+                    <div class="h2">Новости и События</div>
+                    <p class="title-detail">Хотите купить теплицу подешевле? Или узнать о появлении новых товаров?
+                        <br/>Тогда следите за нашими новостями. Для облегчения процесса, можно просто подписаться на
+                        ленту новостей.</p>
+                </div>
+                <div class="space"></div>
+                {% for news in site.categories.news %}
+                {% if news.expires != nil %}
+                    {% assign postExpire = news.expires | date: '%Y-%m-%d' %}
+                {% else %}
+                    {% assign postExpire = site.time | date: '%Y-%m-%d' %}
+                {% endif %}
+                {% assign curentDate = site.time | date: '%Y-%m-%d' %}
+                {% if curentDate <= postExpire %}
+                <div class="com-sec">
+                    {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+                    {% if thecycle == 'odd' %}
+                    <div class="left-text text animate fadeIn">
+                        <span class="title"><a href="#.">{{ news.title }}</a></span>
+                        <div class="clear"></div>
+                        <span>{{ news.date | date: "%d/%m/%Y" }}</span>
+                        <div class="news-content">
+                            {{ news.content }}
+                        </div>
+                    </div>
+                    <div class="divider">
+                        <img  src="/images/timeline-divider.png" alt="">
+                    </div>
+                    <div class="press-img image">
+                        <a href="#.">
+                            <img class="animate fadeIn lazy" src="/images/press-loading.png" alt=""
+                                 data-original="/images/news/{{ news.image }}">
+                        </a>
+                    </div>
+                    {% else %}
+                    <div class="press-img image">
+                        <a href="#.">
+                            <img class="animate fadeIn lazy" src="/images/press-loading.png" alt=""
+                                 data-original="/images/news/{{ news.image }}">
+                        </a>
+                    </div>
+                    <div class="divider">
+                        <img  src="/images/timeline-divider.png" alt="">
+                    </div>
+                    <div class="right-text text animate fadeIn">
+                        <span class="title"><a href="#.">{{ news.title }}</a></span>
+                        <div class="clear"></div>
+                        <span>{{ news.date | date: "%d/%m/%Y" }}</span>
+                        <div class="news-content">
+                            {{ news.content }}
+                        </div>
+                    </div>
+                    {% endif %}
+                </div>
+                <div class="clear"></div>
+                {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+</div>
