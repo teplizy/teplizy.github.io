@@ -8,6 +8,7 @@ description: Для того чтобы вырастить достойный у
 baseurl:
 url: https://teplizy-irkutska.ru
 logo: /images/logo.png
+timezone: Asia/Irkutsk
 
 # Build settings
 markdown: kramdown
