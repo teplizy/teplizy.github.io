@@ -2,6 +2,56 @@
     <a name="catalog"></a>
     <section class="portfolio no-padding-bottom">
         <div class="container">
+            <div class="title">
+                <div class="h1 light">Надежные и долговечные</div>
+                <br>
+                <div class="h1">Беседки и скамейки</div>
+                <p class="title-detail"></p>
+            </div>
+        </div>
+        <div class="items-wrap">
+            {% for arbours in site.categories.arbours reversed %}
+            {% assign words = arbours.content | number_of_words %}
+            <div class="portfolio-item one-third column">
+                <div class="freshdesignweb">
+                    <div class="image_grid portfolio_4col">
+                        <ul id="list" class="portfolio_list da-thumbs">
+                            <li>
+                                <div class="slideUp"><img src="/images/arbours/{{ arbours.image }}"></div>
+                                <article class="da-animate da-slideFromRight" style="display: block;">
+                                    <a class="fancybox photo-icon"
+                                       href="#{% if words > 1 %}{{ arbours.href_id }}{% else %}telephone{% endif %}">
+                                        <i class="{{ arbours.icon }}"></i>
+                                        <div class="h5">
+                                            {{ arbours.subtitle }}<br/>
+                                            <span style="text-transform: uppercase">{{ arbours.title }}</span>
+                                        </div>
+                                        {% for price in arbours.prices %}
+                                        <span>{{ price }}</span>
+                                        {% endfor %}
+                                    </a>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            {% if words > 1 %}
+            <div style="width:auto;height:auto;overflow:auto;position:relative;" class="hide">
+                <div id="{{ arbours.href_id }}" style="text-align:center;font-size:18px;">
+                    <p><img src="{{ site.logo }}" alt=""></p>
+                    <div class="h1 light">{{ arbours.light_title }}</div>
+                    <div class="h1">{{ arbours.title }}</div>
+                    {{ arbours.content }}
+                </div>
+            </div>
+            {% endif %}
+            {% endfor %}
+        </div>
+    </section>
+    <section class="portfolio no-padding-bottom">
+        <div class="container">
             <div class="title animate fadeIn">
                 <div class="h1 light">Коллекция 2017-2018 гг.</div>
                 <br>
